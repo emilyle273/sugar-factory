@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'robotoRegular';
+  src: url('..]/fonts/Roboto-Regular.ttf') format('ttf');
+  src: url('../fonts/Roboto-Regular.otf') format('otf');
+  src: url('../fonts/Roboto-Regular.svg') format('svg');
+  src: url('../fonts/Roboto-Regular.woff') format('woff');
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+}
+
+/* Common */
+body {
+  @extend %font-main;
+}
